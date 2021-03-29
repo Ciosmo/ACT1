@@ -6,16 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    h1{
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    body{
+        background-color: lightblue;
+    }
+     .larger-image{
+        width: 500px;
+        border-radius: 50%;
+    }
+    img{
+        border:darkgoldenrod 5px solid;
+    } 
+    .centrado{
+        text-align: center;
+    }
+</style>
 <body>
-    <a href="index.html" target="_blank"> Inicio</a>
-    <center><h1>GATOS EN ADOPCIÓN</h1></center>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, dolores vero. Atque nostrum a reprehenderit error? Rem laudantium eius corporis illo est distinctio nobis esse! Voluptate odit quo quasi adipisci.</p>
-    <center><h1>Nuestros gatos buscan familia</h1></center>
-
-    <img src="pics/cat1.jpg" alt="cat1 pic" width="400" height="300"/> <a href="gato1.html"> Flaco</a>
+    <a  href="index.html" target="_blank"> Inicio</a>
+    <h1 style="color: yellow;"class="centrado">GATOS EN ADOPCIÓN</h1>
+    <p class="centrado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, dolores vero. Atque nostrum a reprehenderit error? Rem laudantium eius corporis illo est distinctio nobis esse! Voluptate odit quo quasi adipisci.</p>
+    <h1 style="color:yellow;" class="centrado">Nuestros gatos buscan familia</h1>
+<div style="display: flex;justify-content: center;">
+    <img class="larger-image"src="pics/cat1.jpg" alt="cat1 pic" width="400" height="300"/> <a href="gato1.html"> Flaco</a>
     <br>
-    <img src="pics/cat2.jpg" alt="cat2 pic" width="400" height="300"/> <a href="gato2.html"> Cerbero</a>
+    <img class="larger-image"src="pics/cat2.jpg" alt="cat2 pic" width="400" height="300"/> <a href="gato2.html"> Cerbero</a>
     <br>
-    <img src="pics/cat3.jpg" alt="cat3 pic" width="400" height="300"/> <a href="gato3.html"> Luna</a>
+    <img class="larger-image"src="pics/cat3.jpg" alt="cat3 pic" width="400" height="300"/> <a href="gato3.html"> Luna</a>
+</div>
 </body>
 </html>
