@@ -6,20 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body{
+        background-color: lightblue;
+    }
+    h1{
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .larger-image{
+        width: 500px;
+        border-radius: 50%;
+    }   
+    img{
+        border:darkgoldenrod 5px solid;
+    }
+    .centrar{
+        text-align: center;
+    }
+    p{
+        font-size: 15px;
+        font-weight: bold;
+    }
+</style>
 <body>
-    <center><h1>ONG - AYUDA A UN PELUDO </h1> </center>  
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequatur quisquam reprehenderit, modi vel dolores voluptatibus inventore. Deserunt provident itaque ab sed nesciunt, quas suscipit autem saepe laudantium illum deleniti?</p>
+    <div>
+    <h1 class="centrar"style="color:yellow;" >ONG - AYUDA A UN PELUDO </h1>
+    <p class="centrar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequatur quisquam reprehenderit, modi vel dolores voluptatibus inventore. Deserunt provident itaque ab sed nesciunt, quas suscipit autem saepe laudantium illum deleniti?</p>
+</div>
 <br>
-<center><h1>Integrantes</h1></center>
-<ul>
+<h2 class="centrar"style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: yellow; display: flex;justify-content: flex-start">Integrantes</h2>
+<ol>
     <li><h4>Persona1 -cargo 1</h4></li>
     <li><h4>Persona2 -cargo2</h4></li>
     <li><h4>Persona 3 -cargo3</h4></li>
     <li><h4>Persona n - cargo n</h4></li>
-</ul>
-<center><h1>Nuestras secciones de ayuda</h1></center>
-<img src="pics/maxresdefault.jpg"  alt="dog pic" width="400" height="300"/> <a href="seccion1.html" target="_blank"> Perros</a>
+</ol>
+<h1 class="centrar" style="color: yellow;">Nuestras secciones de ayuda</h1>
 <br>
-<img src="pics/gato.jpg"  alt="cat pic" width="400" height="300"/> <a href="seccion2.html" target="_blank"> Gatos</a>
+<br>
+<div style="display: flex;justify-content: center;">
+<img class="larger-image"src="pics/maxresdefault.jpg"  alt="dog pic" width="400" height="300"/> <a href="seccion1.html" target="_blank"> Perros</a>
+<br>
+<img class="larger-image"src="pics/gato.jpg"  alt="cat pic" width="400" height="300"/> <a href="seccion2.html" target="_blank"> Gatos</a>
+</div>
 </body>
 </html>
